@@ -1,0 +1,22 @@
+{
+  "name": "encrypto",
+  "version": "1.0.0",
+  "description": "File encryption command line tool",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./cmd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ankit",
+  "license": "",
+  "dependencies": {
+    "async": "^2.6.1",
+    "clear": "0.1.0",
+    "commander": "2.15.1",
+    "figlet": "1.2.0",
+    "inquirer": "6.0.0",
+    "node-json-db": "0.7.5"
+  }
+}
